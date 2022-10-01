@@ -106,17 +106,28 @@ body {
   color: var(--secondary-text-color);
   margin-right:  auto; 
 }
+.header-soc-icon {
+  margin-right: 10px;
+  cursor: pointer;
+  vertical-align: middle;
+  fill: var(--secondary-text-color);
+}
+.header-nav:hover.header-soc-icon,
+.header-nav:focus.header-soc-icon {
+  color: var(--accent-text-color);
+}
+.header-soc-icon:hover,
+.header-soc-icon:focus {
+  fill: var(--accent-text-color);
+} 
 .header-nav:hover,
 .header-nav:focus{
   color: var(--accent-text-color);
-}
-.header-soc-icon{
-  fill: var(--secondary-text-color);
-}
-.header-soc-icon:hover,
-.header-soc-icon :focus{
-  fill: var(--accent-text-color);
-}
+}  
+
+
+
+
 
 /* ---------------HERO -------------  */
 
